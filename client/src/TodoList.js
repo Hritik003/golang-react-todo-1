@@ -8,7 +8,7 @@ class TodoList extends Component{
     constructor(props){
         super(props);
 
-        this.state={
+        this.state={ 
             task:"",
             items:[],
         }
@@ -22,7 +22,9 @@ class TodoList extends Component{
         return (
             <div>
                 <div className="row">
-
+                    <Header className="header" as="h2" color="yellow">
+                        My To Do List!
+                    </Header>   
                 </div>
             </div>
         );
